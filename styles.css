@@ -8,6 +8,7 @@
     --grey: #B7B7B7;
 }
 
+
 * {
     padding: 0;
     margin: 0;
@@ -46,79 +47,105 @@ body {
     justify-content: end;
     font-size: 16px;
     color: var(--white);
+    font-weight: reguler;
+    /* padding: 12px 24px;
+    background-color: var(--cream);
+    border-radius: 0px; */
+    
 }
 
 .hero {
     width: 100%;
-    margin-top: 94px;
+    margin-top: 94px; 
+    padding: 20px;
     padding: 25px 60px;
     display: flex;
     flex-direction: column;
+    align-content: center;
     gap: 50px;
 }
 
-.main-hero-text {
+.main-hero-text{
     font-size: 180px;
     letter-spacing: -5px;
-    text-align: left;
-    margin-top: 100px;
-    white-space: nowrap; /* Mencegah teks wrap ke baris berikutnya */
 }
 
-.desc-hero {
+.desc-hero{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.CTA-talk-about-project {
+.CTA-talk-about-project{
     display: flex;
     flex-direction: row;
 }
 
-.CTA-talk-about-project .arrow-svg {
+
+.CTA-talk-about-project .arrow-svg{
     width: 10px;
     height: 10px;
 }
 
-.motto {
+.motto{
     padding-right: 200px;
 }
 
-.social-media {
+.social-media{
     padding-right: 150px;
     text-decoration: underline;
 }
 
-/* Styling untuk bagian lainnya */
-.desc-tambahan {
+
+.desc-tambahan{
     width: 100%;
-    margin-top: 150px;
+    margin-top: 150px; 
+    padding: 20px;
     padding: 25px 60px;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     gap: 70px;
     font-size: 12px;
+    align-content: center;
 }
 
-.foto-fikri {
+.foto-fikri{
     width: 100px;
     height: auto;
 }
 
-.fikri-first {
+.fikri-first{
     display: flex;
     flex-direction: column;
+
     margin-top: 20px;
     gap: 10px;
 }
 
-.desc-hero {
+.deskripsi-fikri-second{
+    margin-top: 80px;
+    justify-content: end;
+}
+
+.deskripsi-fikri-third{
+    margin-top: 30px;
+    justify-content: end;
+}
+
+.desc-hero{
     font-size: 22px;
 }
 
-.sub-class-hero {
+.CTA-massages{
+    font-size: 26px;
+}
+
+.text-CTA-talk-about-project{
+    font-weight: 600;
+}
+
+.sub-class-hero{
     margin-top: 270px;
     margin-bottom: 150px;
     display: flex;
@@ -127,25 +154,33 @@ body {
     gap: 40px;
 }
 
-.text-judul-sub {
+.text-judul-sub{
     font-size: 26px;
     color: var(--grey);
+    font-weight: 400;
 }
 
-.text-pekerjaan {
+.pekerjaan{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.text-pekerjaan{
     font-weight: 600;
     font-size: 36px;
 }
 
-.txt-tahun {
+.txt-tahun{
     font-size: 28px;
     color: var(--grey);
     font-weight: 700;
 }
 
-.about-us {
+.about-us{
     display: flex;
     flex-direction: column;
+    align-content: start;
     padding: 30px 60px;
     gap: 30px;
 }
@@ -155,7 +190,7 @@ body {
     font-size: 36px;
 }
 
-.text-desc-about p {
+.text-desc-about p{
     font-size: 24px;
     font-weight: 300;
 }
