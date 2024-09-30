@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio | Nurfikri</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="navbar">
+        <ul class="navbar-link-list">
+            <li class="navbar-list-item">
+                <p class="navbar-item">Services</p>
+            </li>
+            <li class="navbar-list-item">
+                <p class="navbar-item">Experience</p>
+            </li>
+            <li class="navbar-list-item">
+                <p class="navbar-item">About</p>
+            </li>
+        </ul>
+        <div class="CTA-call">
+            <p class="CTA-massages">Book A Call</p>
+        </div>
+    </section>
+
+    <!-- Section dengan konten biasa -->
+    <section class="desc-tambahan" data-scroll-container>
+        <div class="fikri-first" data-scroll-section>
+            <img src="icon/Instagram post - 9.png" alt="foto-fikri" class="foto-fikri">
+            <p class="deskripsi-fikri">Fikri is an <strong>IT Student</strong><br>who loves programming, <br>design, writing, and <br>teaching.</p>
+        </div>
+        <div class="fikri-second" data-scroll-section>
+            <p class="deskripsi-fikri-second" data-scroll data-scroll-speed="1">He enjoys turning ideas <br>into reality through <br>his projects!</p>
+        </div>
+        <div class="fikri-third" data-scroll-section>
+            <p class="deskripsi-fikri-third" data-scroll data-scroll-speed="0.5">Know more about Him.</p>
+        </div>
+    </section>
+
+    <!-- Hero Section khusus untuk teks dengan scroll horizontal -->
+    <section class="hero" data-scroll-section="">
+        <div class="main-hero" data-scroll-container="">
+            <h1 class="main-hero-text" data-scroll data-scroll-speed="2" data-scroll-direction="horizontal">Nurfikri.Agency</h1>
+        </div>
+        <div class="desc-hero">
+            <div class="CTA-talk-about-project">
+                <p class="text-CTA-talk-about-project">Discuss The Project</p>
+                <img src="icon/arrow-up-right.svg" alt="arrow-up-right" class="arrow-svg">
+            </div>
+            <div class="motto">
+                <p class="text-motto">"I am capable of bringing together <br>science, creativity, and marketing <br>all at once."</p>
+            </div>
+            <div class="social-media">
+                <p class="text-social-media">Catch me on Instagram!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="about-us" data-scroll-section="">
+        <div class="text-title-about" data-scroll-container="">
+            <p data-scroll-speed="3">About US</p>
+        </div>
+        <div class="text-desc-about" data-scroll-container="">
+            <p data-scroll-speed="2">At our agency, we don’t just focus on building <br>technology—we also think about the business <br>and marketing side of every product we create. <br>That’s why we’ve got an amazing team ready to <br>bring our clients’ ideas into reality.</p>
+        </div>
+    </section>
+
+    <!-- Locomotive Scroll Script -->
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@beta/bundled/locomotive-scroll.min.js"></script>
+    <script>
+        const scroll = new LocomotiveScroll({
+            el: document.querySelector('[data-scroll-container]'),
+            smooth: true
+        });
+    </script>
+</body>
+</html>

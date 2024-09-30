@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+:root {
+    --dark-grey: #212121;
+    --white: #F6F6F6;
+    --black: #000000;
+    --cream: #D9CAB3;
+    --grey: #B7B7B7;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans';
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-link-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    list-style: none;
+    gap: 40px;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 60px;
+    position: fixed;
+    font-size: 16px;
+    top: 0;
+    color: white;
+    background-color: var(--dark-grey);
+}
+
+.CTA-call {
+    justify-content: end;
+    font-size: 16px;
+    color: var(--white);
+}
+
+.hero {
+    width: 100%;
+    margin-top: 94px;
+    padding: 25px 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.main-hero-text {
+    font-size: 180px;
+    letter-spacing: -5px;
+    text-align: left;
+    margin-top: 100px;
+    white-space: nowrap; /* Mencegah teks wrap ke baris berikutnya */
+}
+
+.desc-hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.CTA-talk-about-project {
+    display: flex;
+    flex-direction: row;
+}
+
+.CTA-talk-about-project .arrow-svg {
+    width: 10px;
+    height: 10px;
+}
+
+.motto {
+    padding-right: 200px;
+}
+
+.social-media {
+    padding-right: 150px;
+    text-decoration: underline;
+}
+
+/* Styling untuk bagian lainnya */
+.desc-tambahan {
+    width: 100%;
+    margin-top: 150px;
+    padding: 25px 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 70px;
+    font-size: 12px;
+}
+
+.foto-fikri {
+    width: 100px;
+    height: auto;
+}
+
+.fikri-first {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.desc-hero {
+    font-size: 22px;
+}
+
+.sub-class-hero {
+    margin-top: 270px;
+    margin-bottom: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 40px;
+}
+
+.text-judul-sub {
+    font-size: 26px;
+    color: var(--grey);
+}
+
+.text-pekerjaan {
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.txt-tahun {
+    font-size: 28px;
+    color: var(--grey);
+    font-weight: 700;
+}
+
+.about-us {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 60px;
+    gap: 30px;
+}
+
+.text-title-about p {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.text-desc-about p {
+    font-size: 24px;
+    font-weight: 300;
+}
